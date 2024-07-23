@@ -155,3 +155,57 @@ body{
 .button-second:hover{
     box-shadow: 0 0 20px var(--color-text);
 }
+.terciario{
+    align-items: center;
+    margin: 0 9em;
+}
+@media(max-width:1100px){
+    .conteiner{
+        display: flex;
+    }
+    .principal-block{
+        margin: 0 2%;
+    }
+    .secundario{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 2%;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .terciario{
+        flex-direction: column-reverse;
+        margin-bottom: 10%;
+    }
+    .img-terciario{
+        margin: 0 0 0 10%;
+    }
+    .rodape-list{
+        
+        flex-direction: row;
+        margin: 5% 2%;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        list-style: inside;
+    }
+    .devices-list{
+        margin: 10% 2% 0 2%;
+    }
+    .device-text{
+        font-size: 20px;
+    }
+    .list-iten{
+        font-size: 16px;
+    }
+    .rodape-link{
+        font-size: 12px;
+    }
+    .secundario-advers{
+        margin: 10% 10% 0 10%;
+    }
+    .secundario-text{
+        margin: 0 10% 0 10%;
+    }
+}
