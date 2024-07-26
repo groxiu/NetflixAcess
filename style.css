@@ -175,7 +175,7 @@ body{
         justify-content: center;
     }
     .terciario{
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0 5% 20% 5%;
         text-align: center;
         padding-bottom: 10%;
